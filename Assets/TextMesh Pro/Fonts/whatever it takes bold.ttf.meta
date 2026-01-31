@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9573ea8a07e0484ab204764a804bf4c
+guid: 8d9e2fb8b16c9482d9e5aeaffc6b1dce
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Swanky and Moo Moo
+  - whatever it takes
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
