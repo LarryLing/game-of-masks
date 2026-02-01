@@ -462,7 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 17
+  maskDescription: A mask that pairs will with any environment. Great for daily wear
+    to match any occasion!
 --- !u!114 &81564401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,7 +582,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 9
+  maskDescription: "What a lovely finish, you look back at your reflection for a
+    few seconds. Watch out though, some edges are not sanded well and still slightly
+    rough, they could cut if handled carelessly. But otherwise it\u2019s smooth,
+    so smooth\u2026"
 --- !u!114 &89790116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,8 +1172,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1301,7 +1305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 8
+  maskDescription: Your hand seems lighter as you hold this mask. You feel mirth
+    bubbling in you, and at the same time a weight off your shoulder feels lifted.
+    For some reason, it feels dangerous.
 --- !u!114 &264026586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,7 +1426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 13
+  maskDescription: "La la la~ You can\u2019t help but break into a hum looking at
+    this mask. Maybe this would be great if you ever need people around you to go
+    \u201Cla la la\u201D. Or just lighten the mood and bring people together. That
+    would be cute too. La la la~"
 --- !u!114 &312959234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,7 +1504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 204, y: -123}
+  m_AnchoredPosition: {x: 200, y: -167}
   m_SizeDelta: {x: 68.628, y: 27.5073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318015287
@@ -1672,7 +1681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 16
+  maskDescription: "Your eyes start feeling heavy. You snap back to awareness, how
+    did that happen? This seems to be a mask that you made in a trance, it would
+    be best if someone responsible handled it. You start to doze off again\u2026"
 --- !u!114 &430872792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2428,7 +2439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 10
+  maskDescription: You feel a magnetic tug from this mask. Maybe this can be a guiding
+    force, for the wearer or an observer, you can never know. Why not both.
 --- !u!114 &752034648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2803,7 +2815,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 11
+  maskDescription: "As you put your hand near, you sense warmth radiating off. You
+    created this masks in hopes that it would fit well for your childhood friend.
+    You cannot help but drift into reminicing and imagining joyful days. Strangely
+    there seems to be a tear somewhere but you cannot find it beneath the fold. Maybe
+    theres more to this mask that you think\u2026.."
 --- !u!114 &897091224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3390,7 +3406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 2
+  maskDescription: Carefully planted, grown, and harvested, this mask was carved
+    carefully out of the mahogany native to your abode.
 --- !u!114 &1168402958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3456,7 +3473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 453, y: -123}
+  m_AnchoredPosition: {x: 449, y: -167}
   m_SizeDelta: {x: 98.6965, y: 27.5073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170755800
@@ -3645,7 +3662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 6
+  maskDescription: Surprisingly heavy for what you thought would be a simple mask.
 --- !u!114 &1266517896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3839,7 +3856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 14
+  maskDescription: A clear see through material. Strangely everything seems blurry
+    when you tried it. It must be out of focus, or only allow the right wearing to
+    see ahead clearly.
 --- !u!114 &1455022466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4361,7 +4380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 1
+  maskDescription: This mask had difficult materials to work with, but became one
+    of your most proud creations. The material was formed under pressure, and the
+    beauty is shone through the cracks. You have been looking for a kind but strong
+    soul to bear it.
 --- !u!114 &1708816006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4656,7 +4678,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 4
+  maskDescription: "You almost miss this mask as you skim through your inventory.
+    Your eyes blur\u2026 you lose your train of thought. Wait what were you looking
+    for?"
 --- !u!114 &1960779598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5120,7 +5144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 7
+  maskDescription: "Steely eyed and sharp witted. This mask can enhance these attributes,
+    for better or for worse\u2026"
 --- !u!114 &2114048663
 MonoBehaviour:
   m_ObjectHideFlags: 0
