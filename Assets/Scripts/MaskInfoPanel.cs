@@ -26,16 +26,6 @@ public class MaskInfoPanel : MonoBehaviour
         resultBox = resultBoxObject.GetComponent<ResultBox>();
     }
 
-    IEnumerator TypeLine(TextMeshProUGUI textMeshPro, string description)
-    {
-        textMeshPro.text = string.Empty;
-        foreach (char letter in description.ToCharArray())
-        {
-            textMeshPro.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-    }
-
     public void ShowMaskInfo(Mask mask)
     {
         if (!panel.activeSelf)
@@ -43,10 +33,8 @@ public class MaskInfoPanel : MonoBehaviour
             panel.SetActive(true);
         }
 
-        StopAllCoroutines();
         selectedMask = mask;
-        maskDescription.text = string.Empty;
-        StartCoroutine(TypeLine(maskDescription, mask.maskDescription));
+        maskDescription.text = mask.maskDescription;
     }
 
     public void ClosePanel()
