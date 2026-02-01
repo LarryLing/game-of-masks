@@ -1684,7 +1684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskInfoPanel
   maskDescription: {fileID: 260450296}
   panel: {fileID: 605601545}
-  correctMask: {fileID: 1168402957}
+  correctMask: {fileID: 1960779597}
   selectedMask: {fileID: 0}
   textBox: {fileID: 1619350930}
   resultBoxObject: {fileID: 1124111270}
