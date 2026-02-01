@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 057cc2ebe7f5b4c35ae5a0f281825ed0
+guid: 66b65048393bb4650bca4a47f4b1d933
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - whatever it takes
+  - Sour Gummy
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
