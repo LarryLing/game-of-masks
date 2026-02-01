@@ -5,6 +5,8 @@ using TMPro;
 public class MaskInfoPanel : MonoBehaviour
 {
     public TextMeshProUGUI maskDescription;
+    public TextMeshProUGUI materialDescription;
+    public TextMeshProUGUI fancyDescription;
     public GameObject panel;
 
     public Mask correctMask;
@@ -15,7 +17,6 @@ public class MaskInfoPanel : MonoBehaviour
     public TextMeshProUGUI resultText;
 
     private ResultBox resultBox;
-    private float typingSpeed = 0.01f;
 
     void Start()
     {
@@ -35,6 +36,8 @@ public class MaskInfoPanel : MonoBehaviour
 
         selectedMask = mask;
         maskDescription.text = mask.maskDescription;
+        materialDescription.text = "<b>Material</b>: " + mask.materialDescription;
+        fancyDescription.text = "<b>Fancy Schmancy Level</b>: " + mask.fancyDescription;
     }
 
     public void ClosePanel()
