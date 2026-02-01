@@ -16,6 +16,9 @@ public class MaskInfoPanel : MonoBehaviour
     public GameObject resultBoxObject;
     public TextMeshProUGUI resultText;
 
+    public string successMessage;
+    public string failureMessage;
+
     private ResultBox resultBox;
 
     void Start()
@@ -60,11 +63,11 @@ public class MaskInfoPanel : MonoBehaviour
 
         if (selectedMask == correctMask)
         {
-            resultBox.ShowResult("Wonderful! Thank you, I can already feel this is exactly what I need. I wish you the best.");
+            resultBox.ShowResult(successMessage);
         }
         else
         {
-            resultBox.ShowResult("I guess this will do. Wish you the best.");
+            resultBox.ShowResult(failureMessage);
         }
 
     }

@@ -693,8 +693,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1053,8 +1053,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 12
-  materialDescription: sparkly stones
+  maskDescription: The fine materials of this mask made it a delicate process to
+    create. Fragile but beautiful, it would be fitting for one who wants to put on
+    a show.
+  materialDescription: gemstones
   fancyDescription: 8/10
 --- !u!114 &259044258
 MonoBehaviour:
@@ -1314,8 +1316,8 @@ MonoBehaviour:
   maskDescription: Your hand seems lighter as you hold this mask. You feel mirth
     bubbling in you, and at the same time a weight off your shoulder feels lifted.
     For some reason, it feels dangerous.
-  materialDescription: 
-  fancyDescription: 
+  materialDescription: cotton
+  fancyDescription: 4/10
 --- !u!114 &264026586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,8 +1440,8 @@ MonoBehaviour:
     this mask. Maybe this would be great if you ever need people around you to go
     \u201Cla la la\u201D. Or just lighten the mood and bring people together. That
     would be cute too. La la la~"
-  materialDescription: 
-  fancyDescription: 
+  materialDescription: brass
+  fancyDescription: 10/10
 --- !u!114 &312959234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,7 +1516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 341.85226, y: -198.12738}
+  m_AnchoredPosition: {x: 300, y: -198.12738}
   m_SizeDelta: {x: 56.5354, y: 22.661}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318015287
@@ -1694,8 +1696,8 @@ MonoBehaviour:
   maskDescription: "Your eyes start feeling heavy. You snap back to awareness, how
     did that happen? This seems to be a mask that you made in a trance, it would
     be best if someone responsible handled it. You start to doze off again\u2026"
-  materialDescription: 
-  fancyDescription: 
+  materialDescription: stone
+  fancyDescription: 4/10
 --- !u!114 &430872792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,6 +2096,9 @@ MonoBehaviour:
   textBox: {fileID: 1619350930}
   resultBoxObject: {fileID: 1124111270}
   resultText: {fileID: 177058135}
+  successMessage: 'Thank you! This is just what I needed! I can feel my energy returning
+    already. '
+  failureMessage: Hm, I suppose this will work. Thanks.
 --- !u!1 &622812768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,10 +3708,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Carefully planted, grown, and harvested, this mask was carved
-    carefully out of the mahogany native to your abode.
+  maskDescription: Diligently planted, grown, and harvested with care, this mask
+    was carved carefully out of the mahogany native to your abode. You feel invigorated
+    bearing it.
   materialDescription: wood
-  fancyDescription: 
+  fancyDescription: 6/10
 --- !u!114 &1168402958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3772,8 +3778,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 543, y: -198}
-  m_SizeDelta: {x: 80.9878, y: 22.572}
+  m_AnchoredPosition: {x: 517, y: -198}
+  m_SizeDelta: {x: 97.1166, y: 22.572}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170755800
 MonoBehaviour:
@@ -3822,18 +3828,6 @@ MonoBehaviour:
       - m_Target: {fileID: 605601549}
         m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
         m_MethodName: ConfirmSelection
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1124111273}
-        m_TargetAssemblyTypeName: ResultBox, Assembly-CSharp
-        m_MethodName: ShowResult
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3962,7 +3956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
   maskDescription: Surprisingly heavy for what you thought would be a simple mask.
-  materialDescription: 
+  materialDescription: bone
   fancyDescription: 6/10
 --- !u!114 &1266517896
 MonoBehaviour:
@@ -4364,9 +4358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: Description 3
+  maskDescription: Emblematic of a bird of prey, this mask has a call of its own.
+    Would be fitting for one who wishes to soar.
   materialDescription: wood
-  fancyDescription: 
+  fancyDescription: 5/10
 --- !u!114 &1516549460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4604,6 +4599,14 @@ MonoBehaviour:
     true colors to the world."
   - "You: Fear not, there\u2019s always a way to \u201Crefurbish\u201D. Here you
     are!"
+  - "\u130E \u1353\u1279\u1290\u1355. \u130E \u1290\u12E8\u1279\u120D\u12A1 \u1203\u12D0\u1371\u12EA
+    \u1355\u12D0\u12AD\u134F\u1371\u1279. \u130E \u2DB4\u120D\u1205\u1279 \u1228\u12D0\u1290\u1355
+    \u122D\u12D0\u12AD\u12AD\u1279\u122D\u1355\u130E\u12D0\u12AD \u1220\u130E\u1355\u2DB4
+    \u1355\u2DB4\u1279 \u1290\u12D0\u1371\u12EA\u122D\u1279 \u12D0\u127B \u132E\u1203
+    \u120D\u12EA\u122D\u120D\u12AD\u1279 \u132E\u120D\u134F\u130E\u122D \u120D\u12AD\u130B
+    \u1290\u1279\u1279\u12A1 \u120D \u132E\u120D\u1290\u12A1 \u122D\u120D\u12E8\u120D\u136A\u1228\u1279
+    \u12D0\u127B \u12EA\u1279\u1290\u1355\u12D0\u12EA\u130E\u12AD\u134F \u132E\u1203
+    \u1220\u2DB4\u130E\u132E\u1290\u1203"
   isCharacterSpeakingFirst: 1
 --- !u!1 &1708816001
 GameObject:
@@ -4699,7 +4702,7 @@ MonoBehaviour:
     beauty is shone through the cracks. You have been looking for a kind but strong
     soul to bear it.
   materialDescription: marble
-  fancyDescription: 5/10
+  fancyDescription: 10/10
 --- !u!114 &1708816006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4834,7 +4837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: confirm
+  m_text: give mask
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d787f2ded9c054375a24280a03ff82e9, type: 2}
   m_sharedMaterial: {fileID: 5011336593005992151, guid: d787f2ded9c054375a24280a03ff82e9, type: 2}
