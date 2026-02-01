@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using TMPro;
 
@@ -16,8 +15,7 @@ public class MaskInfoPanel : MonoBehaviour
     public GameObject resultBoxObject;
     public TextMeshProUGUI resultText;
 
-    public string successMessage;
-    public string failureMessage;
+    public Character character;
 
     private ResultBox resultBox;
 
@@ -63,11 +61,12 @@ public class MaskInfoPanel : MonoBehaviour
 
         if (selectedMask == correctMask)
         {
-            resultBox.ShowResult(successMessage);
+            character.SwitchToMasked();
+            resultBox.ShowResult(character.successMessage);
         }
         else
         {
-            resultBox.ShowResult(failureMessage);
+            resultBox.ShowResult(character.failureMessage);
         }
 
     }
